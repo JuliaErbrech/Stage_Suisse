@@ -1,0 +1,33 @@
+---
+title: "Rapport de stage"
+output:
+  bookdown::html_document2:
+    code_folding: hide
+    toc: yes
+    fig_caption: yes
+---
+<style>
+body {
+  text-align: justify
+}
+</style>
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r librairies, include=F}
+library(tidyverse)
+library(sf)
+library(readxl)
+library(reactable)
+library(sparkline)
+library(stars)
+library(raster)
+library(rgdal)
+library(tmap)
+```
+
+## Présensation du canton de Neuchâtel
+
