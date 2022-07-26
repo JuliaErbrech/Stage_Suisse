@@ -6,13 +6,14 @@ output:
     toc: yes
     fig_caption: yes
 ---
+
+```{=html}
 <style>
 body {
   text-align: justify
 }
 </style>
-
-
+```
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
@@ -29,5 +30,20 @@ library(rgdal)
 library(tmap)
 ```
 
-## Présensation du canton de Neuchâtel
+# Résumé
 
+Dans le cadre de mes études, je devais effectuer un stage dans le domaine forestier à l'étranger. Mes critères étaient de trouver un stage dans le monde professionnel et traitant de l'équilibre forêt-gibier. Ce que me proposaient Pierre Alfter et Marc Ballmer correspondait parfaitement à mes attentes et à celles de l'école, je n'ai donc pas hésité et je suis partie pendant 2 mois dans le canton de Neuchâtel en Suisse. Ces deux mois étaient fantastique! Autant au niveau de l'ambiance que des personnes que j'ai eu la chance de rencontré et au niveau bien sûr du travail sur mon sujet.
+
+# Introduction
+
+En raison du changement climatique, nous essayons d'adapter au mieux nos peuplements. Certains promotionnent la plantation de nouvelles essences, d'autres préfèrent compter sur la régénération naturelle, mais ces méthodes n'aboutiront pas ci les plants ne sont pas en mesure de pousser. En effet, le dent du gibier n'est pas un mince affaire! IMAGE Pour y faire face, le forestier fait souvent appel à des protections de toutes sortes: clôture, répulsif, gaine de protection, etc. PHOTO Et la mise en place de ces techniques prennent une bonne partie du budget. CHIFFRE Une autre solution serait de faire diminuer la population du gibier. Mais les chasseurs ont peur de ne plus avoir de gibier dans les forêts. ARTICLE
+
+Il faut donc trouver un juste équilibre pour que a forêt puisse se renouveler sans l'utilisation de protection, tout en étant en cohabitation avec les ongulés. La plupart des gestionnaires forestiers recherchent cet équilibre: France: l'article L.121-1 du code forestier "L'Etat, en concertation avec les collectivités territoriales et leurs groupements et en mobilisant les autres parties prenantes, veille :
+
+[...] A la régénération des peuplements forestiers dans des conditions satisfaisantes d'équilibre sylvo-cynégétique"
+
+Mais comment pouvons atteindre cet équilibre sans connaître l'effectif exact des populations ni les dégats qu'elles causent? ECRIRE LA PROBLEMATIQUE PLUS GRAND
+
+Pour répondre à cette question, nous allons étudier le cas du canton de Neuchâtel où le régénération naturelle sans protection est recherchée dans ces peuplements traités en futaie jardinée.
+
+## Présensation du canton de Neuchâtel
